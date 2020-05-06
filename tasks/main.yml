@@ -18,11 +18,11 @@
     - percona-server
     - percona-server-repository
 
-- include: install.yml
-  tags:
-    - configuration
-    - percona-server
-    - percona-server-install
+#- include: install.yml
+#  tags:
+#    - configuration
+#    - percona-server
+#    - percona-server-install
 
 - include: configure.yml
   tags:
